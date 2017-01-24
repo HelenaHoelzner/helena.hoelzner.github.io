@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-size: 110%;
+}
+
+h1, h2 {
+  font-family: "Futura", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+p, ul, li {
+  font-family: "Futura", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+}
+
+.personal-data {
+  display: inline-block;
+  float: left;
+}
+
+.info {
+  display: inline-block;
+  float: right;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  float: right;
+}
