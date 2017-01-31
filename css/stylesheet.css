@@ -104,12 +104,14 @@ a:hover {
 
 
 .main {
-  float: right
+  position: fixed;
+  float: right;
   width: auto;
   height: 650px;
   background: none;
   font: 14px/24px "Futura", Inconsolata, "Helvetica Neue", Terminal, "Helvetica";
   padding-left: 300px;
+  padding-right: 100px;
   text-align: left;
   overflow: scroll;
   z-index: 0;
@@ -117,20 +119,22 @@ a:hover {
 
 
 .picture {
+  margin-top: 70px;
   width: auto;
   height: 600px;
 }
 
-.vita
-{
-  margin-top: 200px;
-  margin-bottom: 200px;
-  padding-top: 200px;
+
+.vita{
+  width: 100%;
+  padding-top: 150px;
+  position: relative;
+  float: left;
   background: none;
 }
 
 .vitaright {
-  float: right;
+  float: left;
   margin: 0;
   margin-bottom: 200px;
   width: 70%;
@@ -154,6 +158,9 @@ a:hover {
 }
 
 .galerie {
+  width: 100%;
+  padding-top: 150px;
+  position: relative;
   float: left;
   background: none;
 }
@@ -161,7 +168,7 @@ a:hover {
 .container {
   position: relative;
   width: 100%;
-  margin: 5;
+  margin-bottom: 5;
   float: none;
 
 }
@@ -199,25 +206,31 @@ a:hover {
 }
 
 .galerielinks {
+  box-sizing: border-box;
+  padding: 2.5px;
   float: left;
-  margin: 0;
-  width: 48%;
+  margin-top: 50px;
+  width: 50%;
   height: auto;
 }
 
 .galerierechts {
+  box-sizing: border-box;
+  padding: 2.5px;
   float: right;
-  margin: 0;
-  width: 48%;
+  margin-top: 50px;
+  width: 50%;
   height: auto;
 }
 
 .videos{
-  position: inherit;
-  height: auto;
-  width: 200px;
-  margin-top:  200px;
+  width: 100%;
+  padding-top: 150px;
+  position: relative;
   float: left;
+  background: none;
+
+
 
 }
 
